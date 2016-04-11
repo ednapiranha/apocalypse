@@ -1,0 +1,9 @@
+include mixins.pug
+
+doctype html
+html
+  +head(analytics)
+  body.error
+    #wrapper
+      block content
+    script(src='/landing.bundle.js')

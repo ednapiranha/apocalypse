@@ -1,0 +1,7 @@
+extend error_layout
+
+block content
+  h1 error #{code} #{httpMessage}
+
+  p
+    a(href='/') go back and try again

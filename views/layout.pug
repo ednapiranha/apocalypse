@@ -1,0 +1,17 @@
+include mixins.pug
+
+doctype html
+html
+  +head(analytics)
+  body
+    #wrapper
+      block header
+        header
+          p this
+          #counter
+      block content
+
+    block footer
+
+    block script
+      script(src='/app.bundle.js')
